@@ -1,0 +1,379 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* header section start */
+.bg-warning2{background: #ffb607;}
+
+.nav-item{
+    padding: 34px 22px;
+}
+.nav-item:hover{
+    background:#ffb607 ;
+   
+}
+.nav-item:hover .nav-link{
+    color: white;
+    font-weight: bold;
+   
+}
+
+.dropdown:hover .dropdown-menu{
+ display: block;
+ border: none;
+ left: 0;
+ top: 109px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #ffb607;
+    color: white;
+}
+.dropdown-menu {
+    padding: 0px;
+    width:100px
+}
+.searchicon :hover{
+    background-color: blue;
+}
+
+/* header section end */
+
+
+/* slider section start */
+.carousel-caption{
+    padding-bottom: 19rem;
+}
+.carousel-caption h2{
+    font-size: 60px;
+    color:#ffffff;
+}
+.carousel-indicators {
+    margin-bottom: 9rem;
+}
+.carousel-indicators [data-bs-target]{
+height: 10px;
+width:10px;
+border-radius: 50%;
+    
+}
+/* slider section end */
+
+/* export teacher section start */
+.abc{
+    position: relative;
+    top:-100px;
+    border-radius: 14px;
+    width: 250px;
+    height:250px;
+}
+ .img-out img{
+    position: relative;
+    top:-50px;
+    line-height: 130px;
+}
+.img-back{
+    
+    padding-bottom: 50px;
+    width:130px;
+    height:130px;
+    background: white;
+    border-radius: 100px;
+    text-align: center;
+   
+}
+.teachers{
+    background: #f0aa00;
+}
+.quality{
+    background: #ff002a;
+}
+.life-time{
+    background: #003d69;
+}
+ .Scholarship{
+    background: #3db2d5;
+}
+}
+/* export teacher section end */
+/* Online LearingPLatform section start.. */
+ .online p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #52575e;
+ }
+ .class-icon{
+    background: #3ab64c;
+ }
+ .academy{
+    background: #dd1146;
+ }
+ .imgp p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #52575e;
+ }
+/* Online LearingPLatform section end.. */
+.imgphoto{
+    background-image: url("../img/class-bg.jpg");
+    background-size: cover;
+    padding: 70px 0px;
+}
+    
+/* We Are The Best Choice For Your Child section start */
+.bestchoise{
+    background-image:url(../img/choice-bg.jpg);
+    background-size: cover;
+    
+}
+.heading h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #56225e;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.paragra{
+    color: #000;
+    font-size: 14px;
+    padding: 0 140px;
+    padding-top: 0px;
+    padding-right: 140px;
+    padding-bottom: 0px;
+    padding-left: 140px;
+}
+.Choicebtn button{
+ background-color: #ee3131;
+}
+.Choicebtn button:hover{
+    background-color: #000;
+    transition: 0.5s all;
+}
+/* We Are The Best Choice For Your Child section end */
+/* watch ower video section start */
+.Video{
+    font-size: 48px;
+    color: #56225e;
+    font-weight: bold;
+}
+.video1{
+    background-image: url(/assest/img/large_img.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    border: 14px solid #fff;
+    box-shadow: 0 0 18px rgb(0 0 0 / 12%);
+}
+.playbutton{
+    box-sizing: content-box;
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+    position: relative;
+}
+.playbutton span{
+    display: inline-block;
+    position: relative;
+    z-index: 3;
+    width: 50;
+    height: 50;
+    border-left: 32px solid #ee3131;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+/* watch ower video section end */
+
+/* photogallery section start */
+.photogallery{
+    background: url(../img/gallery-bg.jpg) no-repeat top;;
+    width:100%;
+}
+.photogallery h1{
+    font-size: 48px;
+    color: #56225e;
+    font-weight: bold;
+}
+.photogallery p{
+    font-size: 13px;
+    line-height: 26px;
+    color: #52575e;
+}
+.view{
+    font-size: 15px;
+    font-weight: bold;
+    background: #f0aa00;
+}
+.view:hover{
+    background: #031e3b;
+}
+.images img{
+    width:100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+/* photogallery section end */ 
+
+
+/* Enroll section start... */
+.enroll{
+    background-image: url(../img/enroll-bg.jpg) !important;
+    width:720px%;
+    height: 400px;
+}
+.enroll .container,p{
+    font-size: 18px;
+    color: #fff;
+}
+.enrollimg a:hover{
+    color: #ffb607 !important;
+    transition: 0.3s all;
+}
+
+/* Enroll section end... */
+
+/* Our Teacher section start */
+.teacherhead h1{
+    font-size: 48px;
+    color: #56225e;
+}
+.teacher-content{
+    box-shadow: 0 0 15px rgb(0 0 0 / 4%);
+    position: relative;
+    padding: 20px;
+    background-color: #fff;
+}
+.teacher-content h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.contet-design{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+/* Our Teacher section end */
+
+/* our blog section start.. */
+.ourblog{
+    background: #f8f8f8;
+}
+.imgheading h4 a{
+    color:black;
+    min-height: 177px;
+}
+.imgheading h4 a:hover{
+    color: #f00;
+    transition: 0.5s all;
+}
+.imgheading p{
+    font-size: 14px;
+    line-height: 26px;
+    color: #52575e;
+}
+/* our blog section end.. */
+
+/*  Newsletter saection start */
+.Newsletter{
+    background: #e20c0c;
+    padding: 35px 45px;
+    z-index: 1000;
+    position: relative
+}
+.Newsletter h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+}
+.Newsletter p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+ .newsinfo input{
+    width:400px;
+    border-radius: 0px;
+ }
+ .signup{
+    background: #000 none repeat scroll 0 0;
+    border: medium none;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 0 30px;
+    position: absolute;
+    right: 248px;
+    text-transform: uppercase;
+    bottom: 84px;
+    border-radius: 0;
+    top: 34px;
+ }
+/*  Newsletter saection end */
+/* footer section start */
+.footerimg{
+    max-width: 100%;
+    vertical-align: middle;
+}
+.footerbg{
+    background: #232936;
+    background-size: cover;
+    padding: 50px 0 20px 0;
+}
+.footerimg p{
+    font-size: 14px;
+    color: #bcc5d0;
+    margin-top: 15px;
+}
+.quicklink h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.quicklink ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.quicklink a:hover{
+    color: #e47b9b;
+    transition: 0.5s all;;
+}
+.quicklink ul li{
+    list-style: none;
+    margin-bottom: 7px;
+}
+.opening-hours h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.opening-hours ul li{
+    font-size: 14px;
+    color: #bcc5d0;
+    border-bottom: 1px solid #484848;
+    padding: 5px 0;
+}
+.opening-hours ul li span{
+    float: right;
+}
+.address h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+.address ul li span{
+    font-size: 14px;
+    color: #bcc5d0;
+}
+.address ul li span a{
+    font-size: 14px;
+}
+.address ul li{
+    padding-bottom: 10px;
+}
+/* footer section end */
